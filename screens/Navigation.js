@@ -16,7 +16,7 @@ export default class Navigation extends Component{
   render(){
     return(
       <NavigationContainer>
-        <Stack.Navigator initialRouteName = 'Main'>
+        <Stack.Navigator initialRouteName = 'Review'>
           <Stack.Screen name = 'Review' component = {ReviewScreen}/>
           <Stack.Screen name = 'Main' component = {MainScreen}/>
         </Stack.Navigator>
